@@ -1,0 +1,33 @@
+{
+  "name": "neovis.js",
+  "version": "1.0.0",
+  "description": "Graph visualizations powered by vis.js with data from Neo4j.",
+  "main": "./dist/neovis.js",
+  "directories": {
+    "doc": "doc",
+    "example": "examples",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neo4j-contrib/neovis.js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/neo4j-contrib/neovis.js/issues"
+  },
+  "homepage": "https://github.com/neo4j-contrib/neovis.js#readme",
+  "devDependencies": {
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "style-loader": "^0.16.1",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.3"
+  }
+}
